@@ -1,0 +1,13 @@
+
+E
+java:S3740"/Provide the parametrized type for this generic.(¥’‹õ
+W
+java:S1854"<Remove this useless assignment to local variable "customer".(‚Ó§†˘ˇˇˇˇ
+H
+java:S1481"-Remove this unused "customer" local variable.(‚Ó§†˘ˇˇˇˇ
+V	java:S125"<This block of commented-out lines of code should be removed.(∂ª…ˆ˛ˇˇˇˇ
+C
+java:S1874"-Remove this use of "Query"; it is deprecated.(¥’‹õ
+Q	java:S125"<This block of commented-out lines of code should be removed.(§ªÎƒ
+S	java:S106"9Replace this use of System.out or System.err by a logger.(˜Öì¬¯ˇˇˇˇ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ç˝áúˇˇˇˇˇ

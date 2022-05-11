@@ -1,0 +1,9 @@
+
+J
+java:S3740"/Provide the parametrized type for this generic.(Úêè®üÿÿÿÿ
+W
+java:S1854"<Remove this useless assignment to local variable "customer".(âî¤ ùÿÿÿÿ
+H
+java:S1481"-Remove this unused "customer" local variable.(âî¤ ùÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(å¹–‡
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ı‡œÿÿÿÿÿ
