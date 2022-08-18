@@ -1,6 +1,8 @@
 package com.sunglowsys.allCurd;
 
 
+import org.json.simple.JSONArray;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -13,13 +15,14 @@ public class Customer {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
-    private Integer age;
+    private Long age;
     private String gender;
+
 
     public Customer() {
     }
 
-    public Customer(String name, Integer age, String gender) {
+    public Customer(String name, Long age, String gender) {
         this.name = name;
         this.age = age;
         this.gender = gender;
@@ -41,11 +44,11 @@ public class Customer {
         this.name = name;
     }
 
-    public Integer getAge() {
+    public Long getAge() {
         return age;
     }
 
-    public void setAge(Integer age) {
+    public void setAge(Long age) {
         this.age = age;
     }
 

@@ -18,8 +18,8 @@ public class TestGetData {
         String query = "from Customer as customer where customer.gender=:x and customer.age=:y";
        // String query = "from Customer";
         Query q = session.createQuery(query);
-        q.setParameter("x","female");
-        q.setParameter("y",22);
+        q.setParameter("x","male");
+        q.setParameter("y",12);
         List<Customer> list = q.list();
         for (Customer c :list) {
             System.out.println(c.getId()+"       :"+ c.getName()+"    :"+c.getAge()+"        :"+c.getGender());

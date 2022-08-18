@@ -14,7 +14,7 @@ public class TestDeleteData {
         Customer c = new Customer();
         Query q1 =session.createQuery("delete from  Customer  customer where customer.age=:x and customer.gender=:y ");
         q1.setParameter("x",12);
-        q1.setParameter("y","female");
+        q1.setParameter("y","male");
          int n =q1.executeUpdate();
         System.out.println("deleted");
         System.out.println(n);
